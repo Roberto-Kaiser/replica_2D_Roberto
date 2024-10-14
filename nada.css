@@ -18,17 +18,21 @@ body {
 
 .nav-list li {
     margin-right: 20px;
-    font-size: 1500px
+    font-size: 12px
 }
 
 .nav-list a {
     color: white;
     text-decoration: none; 
-    padding: 5px 10px; 
-    border-radius: 5px; 
+    padding: 12px 5px;  
     transition: background-color 0.3s; 
 }
 
 .nav-list a:hover {
-    background-color: rgb(34, 31, 31); 
+    background-color: rgb(53, 50, 50); 
+}
+
+.logo {
+    height: 15px;
+    width: 35px;
 }

@@ -36,3 +36,12 @@ body {
     height: 15px;
     width: 35px;
 }
+
+.float3 {
+    margin-left: auto;
+}
+
+.float2 {
+    margin-left: 475px;
+}
+

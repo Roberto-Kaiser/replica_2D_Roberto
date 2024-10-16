@@ -1,47 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
-.navbar {
-    background-color: rgb(34, 31, 31); 
-    padding: 10px 20px; 
-}
-
-.nav-list {
-    list-style: none; 
-    display: flex;
-    justify-content: flex-start; 
-    margin: 0; 
-    padding: 0;
-}
-
-.nav-list li {
-    margin-right: 20px;
-    font-size: 12px
-}
-
-.nav-list a {
+header {
+    background-color: rgb(34, 31, 31); /* Cor original do cabeçalho */
     color: white;
-    text-decoration: none; 
-    padding: 12px 5px;  
-    transition: background-color 0.3s; 
+    padding: 10px 20px;
 }
 
-.nav-list a:hover {
-    background-color: rgb(53, 50, 50); 
+.container {
+    display: flex;
+    justify-content: space-between; /* Divide o espaço entre os menus */
+    align-items: center; /* Alinha verticalmente os itens */
 }
 
-.logo {
-    height: 15px;
-    width: 35px;
+.left-menu ul, .right-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Faz a lista ser horizontal */
+    font-size: 13px;
 }
 
-.float3 {
-    margin-left: auto;
+.left-menu li, .right-menu li {
+    margin-right: 10px; /* Espaçamento padrão entre os itens */
 }
 
-.float2 {
-    margin-left: 475px;
+.left-menu .logo {
+    height: 20px; /* Altura da logo */
+    margin-right: 8px; /* Espaçamento à direita da logo */
 }
 
+.left-menu li a, .right-menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px; /* Adiciona espaçamento ao redor do texto */
+    background-color: transparent; /* Fundo padrão */
+    transition: background-color 0.3s; /* Suaviza a transição da cor de fundo */
+}
+
+.left-menu li a:hover, .right-menu li a:hover {
+    background-color: rgb(53, 50, 50); /* Cor de fundo ao passar o mouse sobre os links */
+}
+
+.right-menu li {
+    margin-right: 20px; /* Aumenta o espaçamento antes do "Cadastro" */
+}
+
+.right-menu li:last-child {
+    margin-right: 0; /* Remove o espaçamento do último item */
+}
+
+
+
+.but {
+    margin-top: -15px;
+}
+
+.but button {
+    height: 48px;
+    width: 48px;
+    margin-right: auto;
+    border-radius: 8px;
+    border-style: none;
+    margin-left: 25px;
+}
+
+.bra {
+    height: 110px;
+    width: 180px;
+    margin-left: 140px;
+    padding-top: 40px;
+}
+
+button {
+    background-color: rgb(15, 182, 15);
+}
+
+.yel {
+    background-color: rgb(255, 196, 0);
+}
+
+.but button:hover {
+    cursor: pointer;
+}
+
+.barra {
+    display: flex;
+    justify-content: right;
+    margin-top: -60px;
+    margin-right: 230px;
+}
+
+.pro {
+    width: 170px;
+    height: 55px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: green;
+}

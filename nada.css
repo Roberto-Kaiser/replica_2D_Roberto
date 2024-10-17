@@ -99,8 +99,106 @@ button {
 
 .pro {
     width: 170px;
-    height: 55px;
+    height: 54px;
     border-radius: 10px;
     border: 1px solid;
     border-color: green;
+}
+
+.lado {
+    padding-left: 1150px;
+    margin-top: -50px;
+}
+
+
+
+.second .jorge {
+    background-color: rgb(230, 235, 240);
+    height: 50px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second .jorge ul {
+    list-style: none;
+    display: flex;
+}
+
+.second .jorge ul li {
+    margin: 18px;
+}
+
+.second .jorge ul li:hover {
+    background-color: rgb(206, 199, 191);
+}
+
+.second .jorge a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.second .jorge .amarelo {
+    color: rgb(228, 194, 0);
+}
+
+.second .jorge .azul {
+    color: rgb(45, 57, 226);
+}
+
+.second .jorge .roxo {
+    color: rgb(153, 0, 255);
+}
+
+.second .jorge .verde {
+    color: rgb(123, 255, 0);
+}
+
+.second .jorge .laranja {
+    color: rgb(255, 153, 0);
+}
+
+.second .jorge .rosa {
+    color: rgb(225, 0, 255);
+}
+
+.second .jorge .rosinha {
+    color: rgb(255, 0, 242);
+}
+
+.second .jorge .vermelho {
+    color: rgb(255, 0, 55);
+}
+
+.second .jorge .ciano {
+    color: rgb(0, 255, 255);
+}
+
+
+
+.nata {
+    background-color: rgb(230, 235, 240);
+    margin-top: -16px;
+    margin-left: auto;
+}
+
+.nata ul {
+    list-style: none;
+    display: flex;
+}
+
+.nata ul li {
+    margin: 5px;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.nata .green {
+    color: green;
+    font-weight: bolder;
+}
+
+h1 {
+    margin-left: 58px;
 }

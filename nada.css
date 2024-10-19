@@ -127,7 +127,7 @@ button {
 }
 
 .second .jorge ul li {
-    margin: 18px;
+    margin: 17px;
 }
 
 .second .jorge ul li:hover {
@@ -199,6 +199,33 @@ button {
     font-weight: bolder;
 }
 
-h1 {
+h1, p, ol {
     margin-left: 58px;
+}
+
+.muie {
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.leg {
+    margin-left: 416px;
+}
+
+.bloco {
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.cara {
+    display: block;
+    margin: 0 auto;
+}
+
+.leg2 {
+    margin-left: 430px;
 }

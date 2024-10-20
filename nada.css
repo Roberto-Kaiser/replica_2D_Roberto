@@ -8,52 +8,52 @@ body {
 }
 
 header {
-    background-color: rgb(34, 31, 31); /* Cor original do cabeçalho */
+    background-color: rgb(34, 31, 31);
     color: white;
     padding: 10px 20px;
 }
 
 .container {
     display: flex;
-    justify-content: space-between; /* Divide o espaço entre os menus */
-    align-items: center; /* Alinha verticalmente os itens */
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 .left-menu ul, .right-menu ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Faz a lista ser horizontal */
+    display: flex; 
     font-size: 13px;
 }
 
 .left-menu li, .right-menu li {
-    margin-right: 10px; /* Espaçamento padrão entre os itens */
+    margin-right: 10px; 
 }
 
 .left-menu .logo {
-    height: 20px; /* Altura da logo */
-    margin-right: 8px; /* Espaçamento à direita da logo */
+    height: 20px; 
+    margin-right: 8px; 
 }
 
 .left-menu li a, .right-menu li a {
     color: white;
     text-decoration: none;
-    padding: 10px 15px; /* Adiciona espaçamento ao redor do texto */
-    background-color: transparent; /* Fundo padrão */
-    transition: background-color 0.3s; /* Suaviza a transição da cor de fundo */
+    padding: 10px 15px; 
+    background-color: transparent; 
+    transition: background-color 0.3s; 
 }
 
 .left-menu li a:hover, .right-menu li a:hover {
-    background-color: rgb(53, 50, 50); /* Cor de fundo ao passar o mouse sobre os links */
+    background-color: rgb(53, 50, 50); 
 }
 
 .right-menu li {
-    margin-right: 20px; /* Aumenta o espaçamento antes do "Cadastro" */
+    margin-right: 20px;
 }
 
 .right-menu li:last-child {
-    margin-right: 0; /* Remove o espaçamento do último item */
+    margin-right: 0; 
 }
 
 
@@ -232,4 +232,27 @@ h1, p, ol {
 
 .leg3 {
     margin-left: 392px;
+}
+
+.leg4 {
+    margin-left: 515px;
+}
+
+.leg5 {
+    margin-left: 332px;
+}
+
+.cara2 {
+    display: block;
+    margin: 0 auto;
+    height: 520px;
+    width: 600px;
+}
+
+.ordem {
+    list-style-type: disc;
+}
+
+.leg6 {
+    margin-left: 470px;
 }
